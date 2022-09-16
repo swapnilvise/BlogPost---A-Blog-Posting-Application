@@ -1,0 +1,58 @@
+.login {
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url('https://images.unsplash.com/photo-1542435503-956c469947f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmxvZyUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80');
+    background-size: cover;
+}
+
+.login-title {
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.login-form {
+    margin-top: 20px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form > label {
+    margin: 10px 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.login-input {
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+
+.login-button {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: lightcoral;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.err-message {
+    color: red;
+}
+
+.register-button {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: teal;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}

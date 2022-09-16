@@ -1,0 +1,93 @@
+.single-post {
+    flex: 9;
+}
+
+.single-post-wrapper {
+    padding: 20px;
+    padding-right: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.single-post-image {
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.single-post-title {
+    text-align: center;
+    margin: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+}
+
+.single-post-title-input {
+    margin: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+}
+
+.single-post-title-input:focus {
+    outline: none;
+    border: none;
+    color: grey;
+    border-bottom: 1px solid lightgrey;
+}
+
+.single-post-delete {
+    float: right;
+    font-size: 16px;
+}
+
+.single-post-edit {
+    float: right;
+    font-size: 16px;
+}
+
+.single-post-icon {
+    margin: 10px;
+    cursor: pointer;
+}
+
+.single-post-icon:first-child {
+    color: teal;
+}
+
+.single-post-icon:last-child {
+    color: tomato;
+}
+
+.single-post-info {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    color: #b39656;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.single-post-desc {
+    color: #666;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.single-post-desc-input {
+    color: #666;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.single-post-desc-input:focus {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid lightgray;
+}
+
+.single-post-desc::first-letter {
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 600px;
+}
